@@ -1,0 +1,21 @@
+-- build.settings for project: BoggleRPG-- Managed with http://OutlawGameTools.com-- Copyright 2013 . All Rights Reserved.-- cpmgen build.settings
+settings =
+{
+	orientation =
+	{
+		default ="landscapeRight",
+		supported =
+		{
+			"landscapeLeft","landscapeRight"
+		},
+	},
+
+	iphone =
+	{
+		plist =
+		{
+			UIAppFonts = {"FontNameHere,AndAnotherIfYouLike"},			UIApplicationExitsOnSuspend = false,			UIPrerenderedIcon = true,			UIStatusBarHidden = true
+		},
+	},
+
+}
